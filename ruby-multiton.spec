@@ -12,7 +12,7 @@ Source0:	http://www.codeforpeople.com/lib/ruby/multiton/multiton-%{version}.tgz
 BuildRequires:	ruby
 BuildRequires:	ruby-devel
 Requires:	ruby
-BuildArch:	noarch
+#BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
