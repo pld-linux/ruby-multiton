@@ -1,6 +1,7 @@
 %define	ruby_archdir	%(ruby -r rbconfig -e 'print Config::CONFIG["archdir"]')
 %define ruby_rubylibdir %(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
 Summary:	Ruby implementation of the Multiton pattern
+Summary(pl):	Implementacja wzorca Multiton dla jêzyka Ruby
 Name:		ruby-Multiton
 Version:	1.0.2
 Release:	1
@@ -15,7 +16,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Ruby implementation of the Multiton pattern
+Ruby implementation of the Multiton pattern.
+
+%description -l pl
+Implementacja wzorca Multiton dla jêzyka Ruby.
 
 %prep
 %setup -q -n multiton-%{version}
