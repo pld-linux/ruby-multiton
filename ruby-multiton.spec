@@ -1,5 +1,3 @@
-%define	ruby_archdir	%(ruby -r rbconfig -e 'print Config::CONFIG["archdir"]')
-%define ruby_rubylibdir %(ruby -r rbconfig -e 'print Config::CONFIG["rubylibdir"]')
 Summary:	Ruby implementation of the Multiton pattern
 Summary(pl):	Implementacja wzorca Multiton dla jêzyka Ruby
 Name:		ruby-Multiton
@@ -9,6 +7,7 @@ License:	GPL
 Group:		Development/Languages
 Source0:	http://www.codeforpeople.com/lib/ruby/multiton/multiton-%{version}.tgz
 # Source0-md5:	15c7e51021825782f1713b4db36f466f
+BuildRequires:	rpmbuild(macros) >= 1.263
 BuildRequires:	ruby
 BuildRequires:	ruby-devel
 Requires:	ruby
