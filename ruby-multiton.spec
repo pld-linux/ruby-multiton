@@ -2,15 +2,15 @@ Summary:	Ruby implementation of the Multiton pattern
 Summary(pl):	Implementacja wzorca Multiton dla jêzyka Ruby
 Name:		ruby-Multiton
 Version:	1.0.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages
 Source0:	http://www.codeforpeople.com/lib/ruby/multiton/multiton-%{version}.tgz
 # Source0-md5:	15c7e51021825782f1713b4db36f466f
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby
+BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
-Requires:	ruby
+Requires:	ruby-modules
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
