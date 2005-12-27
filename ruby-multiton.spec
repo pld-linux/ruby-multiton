@@ -8,7 +8,6 @@ Group:		Development/Languages
 Source0:	http://www.codeforpeople.com/lib/ruby/multiton/multiton-%{version}.tgz
 # Source0-md5:	15c7e51021825782f1713b4db36f466f
 BuildRequires:	rpmbuild(macros) >= 1.263
-BuildRequires:	ruby-modules
 BuildRequires:	ruby-devel
 Requires:	ruby-modules
 #BuildArch:	noarch
