@@ -7,9 +7,9 @@ License:	GPL
 Group:		Development/Languages
 Source0:	http://www.codeforpeople.com/lib/ruby/multiton/multiton-%{version}.tgz
 # Source0-md5:	15c7e51021825782f1713b4db36f466f
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
-Requires:	ruby-modules
+%ruby_mod_ver_requires_eq
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
