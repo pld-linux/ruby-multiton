@@ -1,5 +1,5 @@
 Summary:	Ruby implementation of the Multiton pattern
-Summary(pl.UTF-8):   Implementacja wzorca Multiton dla języka Ruby
+Summary(pl.UTF-8):	Implementacja wzorca Multiton dla języka Ruby
 Name:		ruby-Multiton
 Version:	1.0.2
 Release:	2
