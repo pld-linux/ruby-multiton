@@ -1,15 +1,17 @@
+%define pkgname multiton
 Summary:	Ruby implementation of the Multiton pattern
 Summary(pl.UTF-8):	Implementacja wzorca Multiton dla języka Ruby
-Name:		ruby-Multiton
+Name:		ruby-%{pkgname}
 Version:	1.0.2
 Release:	2
 License:	GPL
 Group:		Development/Languages
-Source0:	http://www.codeforpeople.com/lib/ruby/multiton/multiton-%{version}.tgz
+Source0:	http://www.codeforpeople.com/lib/ruby/multiton/%{pkgname}-%{version}.tgz
 # Source0-md5:	15c7e51021825782f1713b4db36f466f
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel
 %{?ruby_mod_ver_requires_eq}
+Obsoletes:	ruby-Multiton
 #BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
